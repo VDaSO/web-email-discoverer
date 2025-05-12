@@ -18,4 +18,35 @@ Un script Python permettant de découvrir toutes les URLs internes d’un site w
 Tu peux les installer avec :
 
 ```bash
+git clone https://github.com/VDaSO/web-email-discoverer.git
+cd web-email-discoverer
 pip install -r requirements.txt
+```
+
+## Utilisation
+
+```bash
+python3 scraper.py
+```
+
+Entrez une URL complète (par exemple : https://exemple.com), et l'outil va découvrir les liens internes et extraire les emails de chaque page trouvée.
+
+## Exemple de sortie 
+
+```bash
+Provide an URL (e.g., https://example.com):
+> https://example.com
+
+PAGE FOUND : https://example.com
+----------- 12 UNIQUE URLS FOUND -----------
+
+https://example.com/contact
+https://example.com/about
+...
+
+Searching emails in discovered pages...
+
+Emails found on https://example.com/contact:
+   contact@example.com
+   support@example.com
+```
