@@ -1,4 +1,4 @@
-#  scaper
+#  Scaper
 
 Un script Python permettant de découvrir toutes les URLs internes d’un site web donné, puis de rechercher automatiquement les adresses e-mail présentes sur ces pages.
 
